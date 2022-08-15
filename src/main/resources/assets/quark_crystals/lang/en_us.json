@@ -54,6 +54,7 @@
 	"block.quark_crystals.pink_crystal": "Pink Crystal",
 	"block.quark_crystals.white_crystal": "White Crystal",
 	"block.quark_crystals.yellow_crystal": "Yellow Crystal",
+	"block.quark_crystals.cyan_crystal": "Cyan Crystal",
 
 	"block.quark_crystals.red_crystal_pane": "Red Crystal Pane",
 	"block.quark_crystals.orange_crystal_pane": "Orange Crystal Pane",
@@ -63,5 +64,6 @@
 	"block.quark_crystals.indigo_crystal_pane": "Indigo Crystal Pane",
 	"block.quark_crystals.pink_crystal_pane": "Pink Crystal Pane",
 	"block.quark_crystals.white_crystal_pane": "White Crystal Pane",
-	"block.quark_crystals.black_crystal_pane": "Black Crystal Pane"
+	"block.quark_crystals.black_crystal_pane": "Black Crystal Pane",
+	"block.quark_crystals.cyan_crystal_pane": "Cyan Crystal Pane"
 }

@@ -58,6 +58,8 @@
     "quark_crystals:indigo_crystal_pane",
     "quark_crystals:pink_crystal_pane",
     "quark_crystals:white_crystal_pane",
-    "quark_crystals:black_crystal_pane"
+    "quark_crystals:black_crystal_pane",
+    "quark_crystals:cyan_crystal",
+    "quark_crystals:cyan_crystal_pane"
   ]
 }
