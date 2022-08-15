@@ -3,7 +3,7 @@
   "id": "quark_crystals",
   "version": "${version}",
 
-  "name": "Quark_crystals",
+  "name": "Quark Crystals",
   "description": "1.18.2 and 1.12.2 crystals from quark... ported to fabric!",
   "authors": [
     "Fluffy Bumblebee"
