@@ -1,5 +1,5 @@
 # Quark Crystals
-**Obiously a shoutout to Vazkii and the development team of quark, this mod exists because of their hard work!**
+**Obviously a shoutout to Vazkii and the development team of quark, this mod exists because of their hard work!**
 
 Crystals from quark 1.18 & 1.12.2... ported to fabric!
 
