@@ -10,4 +10,3 @@ Instead of a boring explanation, let me **show** you some pictures:
 Now this isn't a **direct** port of the crystals. They have been modified to look more pretty.
 The generation mimics that of amethyst geodes, but with these crystals.
 You can now enjoy pretty building blocks as long as you meet its exploratory needs!!
-[](../../AppDat
