@@ -1,0 +1,6 @@
+{
+	"parent": "block/waxed_cube_all",
+	"textures": {
+		"all": "quark_crystals:block/green_corundum"
+	}
+}
