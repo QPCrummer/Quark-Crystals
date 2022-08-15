@@ -2,13 +2,14 @@ package net.fluffybumblebee.quarkcrystals.block.custom;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fluffybumblebee.quarkcrystals.util.ArrayDiscriminatorUtil;
-import net.minecraft.block.*;
+import net.minecraft.block.AmethystClusterBlock;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.BuddingAmethystBlock;
+import net.minecraft.block.Material;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
-
-import java.util.Random;
 
 
 @SuppressWarnings({"deprecation"})
@@ -30,9 +31,9 @@ public class CorundumBlock extends BuddingAmethystBlock {
 
     private static final Direction[] DIRECTIONS = Direction.values();
 
-    @Override
-    public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-        if (world.isAir(pos.up()) && !waxed && random.nextInt(8 * (pos.getY() + 65)) == 0) {
+
+    public void randomTick(BlockState state, ServerWorld world, BlockPos pos, net.minecraft.util.math.random.Random random) {
+        if (!waxed && random.nextInt(8 * (pos.getY() + 65)) == 0 && world.isAir(pos.up())) {
             Direction direction0 = DIRECTIONS[random.nextInt(DIRECTIONS.length)];
             Direction direction1 = DIRECTIONS[random.nextInt(DIRECTIONS.length)];
             Direction direction2 = DIRECTIONS[random.nextInt(DIRECTIONS.length)];

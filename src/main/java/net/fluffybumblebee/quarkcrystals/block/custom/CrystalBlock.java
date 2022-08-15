@@ -7,8 +7,6 @@ import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.math.Direction;
 
-import java.util.Random;
-
 
 @SuppressWarnings({"deprecation"})
 public class CrystalBlock extends AmethystBlock {

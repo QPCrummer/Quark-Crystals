@@ -1,7 +1,6 @@
 package net.fluffybumblebee.quarkcrystals.block.custom;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fluffybumblebee.quarkcrystals.block.QCBlocks;
 import net.fluffybumblebee.quarkcrystals.util.ArrayDiscriminatorUtil;
 import net.minecraft.block.AmethystClusterBlock;
 import net.minecraft.block.BlockState;
